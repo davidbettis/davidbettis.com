@@ -1,0 +1,8 @@
+%html
+  %head
+    %title= yield_content(:title)
+    = stylesheet_link_tag "normalize", "all", "font-awesome-4.0.3/css/font-awesome.min.css", "social-buttons"
+    = javascript_include_tag  "all"
+  
+  %body
+    = yield
