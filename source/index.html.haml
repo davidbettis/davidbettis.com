@@ -6,27 +6,36 @@
       %h1 davidbettis.com
 
       %h2 Hello
+      .hello
+        My name's David Bettis, and I'm a software developer in the Pacific Northwest. 
 
-      My name's David Bettis, and I'm a software developer in the Pacific Northwest.
+      %h2 Side Projects
+      .side_projects
+        %h3 Daily Office
+        
+        The
+        %a{:href => '/daily-office'} Daily Office
+        is an historic Christian devotional. This web site guides you through a
+        set of scripture readings and liturgical prayers, according to the
+        %a{:href => 'http://anglicanchurch.net'} Anglican (ACNA)
+        tradition. The source for the project can be found on
+        %a{:href => 'https://github.com/davidbettis/daily-office'}Github.
 
-      %h2 Software
+        %h3 Asset Allocation
 
-      I write software all day. To mix things up, I like to read and be active when not at work, so this section is pretty small.  Nevertheless, here are some homegrown bits of software the world may find useful.
-
-      %h3 Asset Allocation
-
-      %a{:href => 'https://docs.google.com/spreadsheets/d/1XEg9V8JoV8Fn9WFm0S22cJDUvJZLH8whZE-jDyFahhE/edit?usp=sharing'}
-        Asset Allocation Spreadsheet
-
-      If there's one thing working at Amazon has taught me, it's the value of frugality and investing.  This is a free Google Sheets spreadsheet I created to keep asset allocations in check.  It pulls real-time stock quotes and gives directions on how much to buy/sell.  To use it, click on the link above and select "File -> Make a Copy".
+        In the late 2000s, companies like Betterment and Wealthfront became
+        popular, which charge a percentage of your assets to manage your investments.
+        As you save more, do these companies really provide additional value? I don't
+        think so. This is a free 
+        %a{:href => 'https://docs.google.com/spreadsheets/d/1XEg9V8JoV8Fn9WFm0S22cJDUvJZLH8whZE-jDyFahhE/edit?usp=sharing'}
+          Asset Allocation Spreadsheet
+        to keep your asset allocations in check. It pulls real-time stock quotes and
+        gives directions on how much to buy/sell.  To use it, click on the link above
+        and select "File -> Make a Copy".
 
       %h2 Contact
-
-      .top-padded{:style => "padding-top: 20px; text-align: center;"}
-        %a.btn.btn-xlarge.btn-twitter{:href => "http://twitter.com/enthalpyx"}
-          %i.fa.fa-2x.fa-twitter
-        %a.btn.btn-xlarge.btn-linkedin{:href => "http://www.linkedin.com/in/davidbettis/"}
-          %i.fa.fa-2x.fa-linkedin
-        %a.btn.btn-xlarge.btn-github{:href => "https://github.com/davidbettis"}
-          %i.fa.fa-2x.fa-github
+      .contact
+        %a.icon-twitter.social-button.color{:href => "http://twitter.com/enthalpyx"}
+        %a.icon-linkedin.social-button.color{:href => "http://www.linkedin.com/in/davidbettis/"}
+        %a.icon-github.social-button.color{:href => "https://github.com/davidbettis"}
 
