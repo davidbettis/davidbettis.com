@@ -1,0 +1,60 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-image: url("/images/watercolor.png");
+  background-repeat: repeat-y;
+  color: #333333;
+  text-align: center;
+  width: 100%;
+}
+
+.intro {
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.top-title {
+  font-family: sans-serif	
+}
+
+.content {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+  .content {
+    width: auto;
+    margin: 20px;
+  }
+}
+
+a {
+  color: #428bca;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a.social-button:focus, a.social-button:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.contact {
+  text-align: center;
+}
