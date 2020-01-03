@@ -1,4 +1,6 @@
-default:
+default: server
+
+build:
 	bundle exec middleman build
 
 clean:
@@ -7,5 +9,6 @@ clean:
 server:
 	bundle exec middleman server
 
-deploy:
-	aws s3 sync build ${DAVIDBETTIS_S3} --exclude daily-office
+deploy: clean build
+	@if [ -z ${DAVIDBETTIS_S3} ]; then echo "S3 target not configured."; else aws s3 sync build ${DAVIDBETTIS_S3} --exclude daily-office; fi
+ 
