@@ -1,5 +1,7 @@
 # Development
 
-To develop locally: bundle exec middleman server
+To develop locally: make server
 
-To deploy: bundle exec middleman build
+To build site: make build
+
+To deploy: make deploy
