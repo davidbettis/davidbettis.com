@@ -7,6 +7,28 @@ body {
   width: 100%;
 }
 
+a img {
+  outline: none;
+}
+
+img {
+  border: 0;
+}
+
+.registry-logo-block {
+  display:inline-block;
+}
+
+.registry-logo-container {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.registry-logos {
+  text-align: center;
+  padding-top: 10px;
+}
+
 .small-caps {
   font-variant: small-caps;
 }
