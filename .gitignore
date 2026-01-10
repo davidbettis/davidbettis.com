@@ -1,4 +1,7 @@
-Gemfile.lock
+_site
+node_modules
 .DS_Store
+.bundle/
 .sass-cache/
-build/
+package-lock.json
+public
