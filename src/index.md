@@ -9,13 +9,13 @@ My name's David Bettis, and I'm a software engineer and technologist in the Paci
 
 # Projects
 
-## Open Recipe
+## Recipe Free
 
-Love cooking? Tired of ad-cluttered recipe sites and apps? Frustruated with apps that lock you into their ecosystem?  Open Recipe helps you collect, organize, and search your recipes on your own terms. Store your library in your personal cloud and persist them with RecipeMD, an open, human-readable format you actually own.
+[Recipe Free](recipe-free/) is an app that allows you to collect, organize, and search recipes on your own terms. It empowers you to Store your recipe library on your device or in your own personal cloud in RecipeMD, an open human-readable recipe format. *Coming early 2026*
 
 ## Shapes
 
-A [fun abstract-art thing](/shapes/) written in Rust, using WebAssembly. Inspired by an [After Dark](https://en.wikipedia.org/wiki/After_Dark_%28software%29) screensaver from the early 90s. Source available on [Github](https://github.com/davidbettis/shapes).
+A [fun abstract-art thing](shapes/) written in Rust, using WebAssembly. Inspired by an [After Dark](https://en.wikipedia.org/wiki/After_Dark_%28software%29) screensaver from the early 90s. Source available on [Github](https://github.com/davidbettis/shapes).
 
 # Interesting Places
 
