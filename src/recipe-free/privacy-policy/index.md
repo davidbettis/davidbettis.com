@@ -5,27 +5,37 @@ layout: base
 
 # Privacy Policy for Recipe Free
 
-Last updated: 2026-01-15
+Last updated: 2026-01-23
 
-## No Data Collection
+## No Data Collection by Us
 
-Recipe Free does not collect, store, transmit, or share any personal information or usage data. We respect your privacy and have designed our app to operate entirely on your device.
+Recipe Free does not collect, store, transmit, or share any personal information or usage data with us, the app developers. We respect your privacy and have designed our app to operate entirely on your device.
 
 What This Means:
+
 * No analytics or tracking
 * No advertising networks
 * No crash reporting that sends data to us
 * No user accounts or authentication
-* No data stored on external servers
+* No data stored on external servers controlled by us
 * All processing happens locally on your device
 
-## Third-Party Services
+## Your Recipe Data
 
-Our app does not integrate with any third-party services that collect data. When the app loads images from external URLs, those servers may see standard web request information (such as IP addresses), but this is not collected or controlled by us.
+Recipe Free allows you to create and store recipes within the app. This recipe data is yours and stays with you. We, the developers and maintainers of Recipe Free, have no access to it.
+
+You can choose where your recipe data is stored:
+
+* **On your device:** Your recipes are stored locally and remain entirely on your device.
+* **On iCloud Drive:** If you choose to store your recipes on iCloud Drive, your recipes are stored in your personal Apple account for backup and syncing across your devices. This data is subject to Apple's privacy policy, and we have no access to it.
+
+## Images in Recipes
+
+You may choose to include images in your recipes by providing URLs to external image sources. When the app renders these images, it retrieves them directly from those external servers. Those servers may see standard web request information (such as your IP address), but this is not collected or controlled by us.
 
 ## Children's Privacy
 
-Since we do not collect any data, our app is safe for users of all ages, including children under 13.
+Since we do not collect any data from users, our app is safe for users of all ages, including children under 13.
 
 ## Changes to This Policy
 

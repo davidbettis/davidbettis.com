@@ -8,3 +8,6 @@ server: build
 clean:
 	rm -rf _site node_modules
 
+deploy:
+	aws s3 sync public ${S3_DEPLOY_TARGET}
+
