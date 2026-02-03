@@ -9,9 +9,9 @@ My name's David Bettis, and I'm a software engineer and technologist in the Paci
 
 # Projects
 
-## Recipe Free
+## Open Cookbook
 
-[Recipe Free](recipe-free/) is an app that allows you to collect, organize, and search recipes on your own terms. It empowers you to store your recipe library on your device or own personal cloud in RecipeMD, an open human-readable recipe format. *Coming early 2026*
+[Open Cookbook](open-cookbook/) is an app that allows you to collect, organize, and search recipes on your own terms. It empowers you to store your recipe library on your device or own personal cloud in RecipeMD, an open human-readable recipe format. *Coming early 2026*
 
 ## Shapes
 

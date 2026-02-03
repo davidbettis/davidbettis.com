@@ -1,15 +1,15 @@
 ---
-title: "Recipe Free - Privacy Policy"
+title: "Open Cookbook - Privacy Policy"
 layout: base
 ---
 
-# Privacy Policy for Recipe Free
+# Privacy Policy for Open Cookbook
 
-Last updated: 2026-01-23
+Last updated: 2026-02-02
 
 ## No Data Collection by Us
 
-Recipe Free does not collect, store, transmit, or share any personal information or usage data with us, the app developers. We respect your privacy and have designed our app to operate entirely on your device.
+Open Cookbook does not collect, store, transmit, or share any personal information or usage data with us, the app developers. We respect your privacy and have designed our app to operate entirely on your device.
 
 What This Means:
 
@@ -22,7 +22,7 @@ What This Means:
 
 ## Your Recipe Data
 
-Recipe Free allows you to create and store recipes within the app. This recipe data is yours and stays with you. We, the developers and maintainers of Recipe Free, have no access to it.
+Open Cookbook allows you to create and store recipes within the app. This recipe data is yours and stays with you. We, the developers and maintainers of Open Cookbook, have no access to it.
 
 You can choose where your recipe data is stored:
 
@@ -43,4 +43,4 @@ If we ever change our data practices, we will update this privacy policy and not
 
 ## Contact
 
-If you have questions about this privacy policy, please contact us at: david@davidbettis.com
+If you have questions about this privacy policy, please contact us at: opencookbook@davidbettis.com

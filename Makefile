@@ -8,6 +8,8 @@ server: build
 clean:
 	rm -rf _site node_modules
 
-deploy:
-	aws s3 sync public ${S3_DEPLOY_TARGET}
+deploy: build
+	@if [ -f config.sh ]; then . ./config.sh; fi; \
+	aws s3 sync public $${S3_DEPLOY_TARGET} && \
+	aws cloudfront create-invalidation --distribution-id $${CLOUDFRONT_DISTRIBUTION_ID} --paths "/*"
 
