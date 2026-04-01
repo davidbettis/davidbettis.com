@@ -28,8 +28,28 @@ url: https://davidbettis.com
     <title>{{ title }}</title>
   </head>
   <body>
+    <nav>
+      <div class="nav-header">
+        <div class="nav-title">
+          <span class="site-name">David Bettis</span>
+        </div>
+        <span class="nav-social">
+          <a href="http://www.linkedin.com/in/davidbettis/" class="icon-linkedin social-button color"></a>
+          <a href="https://github.com/davidbettis" class="icon-github social-button color"></a>
+        </span>
+      </div>
+      <div class="nav-links">
+        <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Posts</a>
+        <span class="nav-sep">&raquo;</span>
+        <a href="/projects/"{% if page.url == "/projects/" %} aria-current="page"{% endif %}>Projects</a>
+        <span class="nav-sep">&raquo;</span>
+        <a href="/places/"{% if page.url == "/places/" %} aria-current="page"{% endif %}>Places</a>
+      </div>
+    </nav>
     <div class='content'>
-{{ content | safe }}
+      {% block body %}
+        {{ content | safe }}
+      {% endblock %}
     </div>
   </body>
 </html>

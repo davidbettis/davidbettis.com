@@ -43,6 +43,84 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
 
+/* Navigation */
+nav {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.nav-social {
+  margin-top: 0.25em;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.site-name {
+  font-size: 2em;
+  font-weight: 500;
+  display: block;
+}
+
+.nav-social .social-button {
+  font-size: 1em;
+  margin-left: 4px;
+}
+
+.nav-links a {
+  margin-right: 4px;
+}
+
+.nav-sep {
+  color: #888;
+  margin-right: 4px;
+}
+
+.nav-links a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Blog listing */
+.post-summary {
+  margin-bottom: 2em;
+}
+
+.post-summary h2 {
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.post-summary time {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.post-summary p {
+  margin-top: 0.4em;
+}
+
+/* Post page */
+article time {
+  color: #888;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.post-title {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
 .contact {
   text-align: center;
 }

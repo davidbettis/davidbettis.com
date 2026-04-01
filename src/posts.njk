@@ -1,0 +1,14 @@
+---
+layout: base
+title: Posts
+permalink: /
+---
+{% set postsList = collections.posts | reverse %}
+{% for post in postsList %}
+  <article class="post-summary">
+    <h2>{{ post.data.title }}</h2>
+    <time>{{ post.date | readableDate }}</time>
+    <p>{{ post.content | excerpt | safe }}</p>
+    <a href="{{ post.url }}">Read more &raquo;</a>
+  </article>
+{% endfor %}
