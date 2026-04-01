@@ -1,7 +1,6 @@
 ---
 title: David Bettis
-description: Software engineer and technologist in the Pacific Northwest. 
-url: https://davidbettis.com
+description: Software engineer and technologist in the Pacific Northwest.
 ---
 <!doctype html>
 <html lang="en">
@@ -11,13 +10,13 @@ url: https://davidbettis.com
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="{{ description }}">
-    <link rel="canonical" href="{{ url }}">
+    <link rel="canonical" href="https://davidbettis.com{{ page.url }}">
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" content="{{ description }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ url }}">
+    <meta property="og:type" content="{% if date %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="https://davidbettis.com{{ page.url }}">
 
     <!-- Font Preloading -->
     <link rel="preload" href="/fonts/socialfont.woff" as="font" type="font/woff" crossorigin>

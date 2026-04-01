@@ -1,5 +1,6 @@
 ---
 title: "When the URL is Enough"
+description: "LLMs aren't just good at converting text from one format to another, but the \"knowledge\" of the world they have brings unintended benefits."
 date: 2026-04-02
 ---
 
