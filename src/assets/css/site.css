@@ -1,3 +1,7 @@
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333333;
@@ -46,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation */
 nav {
   max-width: 700px;
-  margin: 20px auto 40px;
+  margin: 20px auto 24px;
   padding: 0 20px;
   text-align: left;
 }
@@ -68,6 +72,24 @@ nav {
   font-size: 2em;
   font-weight: 500;
   display: block;
+}
+
+.name-footnote {
+  font-size: 0.75em;
+  vertical-align: super;
+  color: #888;
+  cursor: default;
+  line-height: 1;
+}
+
+.name-tooltip {
+  visibility: hidden;
+  color: #555;
+  margin: 6px 0 0;
+}
+
+nav:has(.name-ref:hover) .name-tooltip {
+  visibility: visible;
 }
 
 .nav-social .social-button {
