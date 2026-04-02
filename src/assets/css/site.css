@@ -47,10 +47,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
 
+.content > h2:first-child,
+.content > *:first-child h2:first-child {
+  margin-top: 0;
+}
+
 /* Navigation */
 nav {
   max-width: 700px;
-  margin: 20px auto 24px;
+  margin: 20px auto 16px;
   padding: 0 20px;
   text-align: left;
 }
