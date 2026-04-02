@@ -6,7 +6,7 @@ date: 2026-04-02
 
 LLMs aren't just good at converting text from one format to another, but the "knowledge" of the world they have brings unintended benefits.
 
-I've recently been developing an app called [Open Cookbook](http://localhost:8080/open-cookbook/). My wife and I like to cook, and we have an iPad in the kitchen. We have a variety of recipe sources, including handwritten notes, recipe books, and bookmarks to websites.  The idea is to create a single, centralized copy of all the recipes we like, easily accessible through our preferred viewing medium, an iPad. The recipes are memorialized in an open format, [RecipeMD](https://recipemd.org/), which is a subset of Markdown. 
+I've recently been developing an app called [Open Cookbook](/open-cookbook/). My wife and I like to cook, and we have an iPad in the kitchen. We have a variety of recipe sources, including handwritten notes, recipe books, and bookmarks to websites.  The idea is to create a single, centralized copy of all the recipes we like, easily accessible through our preferred viewing medium, an iPad. The recipes are memorialized in an open format, [RecipeMD](https://recipemd.org/), which is a subset of Markdown. 
 
 I started building a feature to create a copy of a recipe by providing a website. The idea is to extract the ingredients and the instructions, but strip out all the fluff. Recipes from blogs often have personal stories attached. Blogging is storytelling, but when I'm in the kitchen, I'm looking for ingredients, not a plot twist. Other recipe websites are chock full of ads. So much so that it's hard to even find the ingredients section. There are great recipes on websites out there, but the experience is less than ideal.
 

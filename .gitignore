@@ -3,6 +3,5 @@ node_modules
 .DS_Store
 .bundle/
 .sass-cache/
-package-lock.json
 public
 config.sh
