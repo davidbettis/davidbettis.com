@@ -9,6 +9,10 @@ layout: base
 - [Tech Meme](https://techmeme.com/) - tech-related headlines
 - [Simon Willison's Weblog](https://simonwillison.net/) - curates the latest on LLMs and their impact on software development
 
+## Newsletters
+
+- [The Diff](https://www.thediff.co/) - I consistently enjoy Bryne Hobart's analysis. This is the guy who precipitated the Silicon Valley Bank exodus.
+
 ## Art and Culture
 - [KEXP](https://www.kexp.org/) – music discovery sans algorithm
 - [Mockingbird](https://mbird.com/) – never moving beyond the need to hear grace
