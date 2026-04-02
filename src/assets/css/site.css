@@ -2,6 +2,22 @@ html {
   scrollbar-gutter: stable;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  left: calc(50% - 370px);
+  top: 25px;
+  width: 1px;
+  height: 300px;
+  background: linear-gradient(to bottom, black, #888, white);
+}
+
+@media only screen and (max-width: 700px) {
+  body::before {
+    left: 0px;
+  }
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333333;
