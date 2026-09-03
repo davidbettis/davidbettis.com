@@ -5,7 +5,17 @@ layout: base
 
 ## Active
 
+### Open Spider Solitaire
+
+*Released: September 2026 - coming soon*
+
+[Open Spider Solitaire](/open-spider-solitaire/) is an offline iOS app implementation of the classic card game Spider Solitaire. The objective is to sort two decks of cards into full runs of 8 different suits. So-named because these 8 suits are like the 8 legs of a spider.
+
+No ads, in-app purchases, or tracking of any sort.
+
 ### Open Cookbook
+
+*Released: March 2026*
 
 [Open Cookbook](/open-cookbook/) is an iOS app that lets you organize, search, and view your recipe library on your own terms without being locked into a proprietary ecosystem. Recipes are stored on your personal device or your iCloud drive. Recipes are formatted in [RecipeMD](https://recipemd.org/), an open format based on markdown. Build a recipe library you can pass down to your kids.
 
