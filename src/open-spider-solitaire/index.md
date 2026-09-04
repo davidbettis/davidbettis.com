@@ -3,12 +3,12 @@ title: "Open Spider Solitaire"
 layout: base
 ---
 
-# Open Cookbook
+# Open Spider Solitaire
 
 <div style="text-align: center">
-
-[![Download Open Cookbook on the Apple Appstore](https://PLACEHOLDER)](PLACEHOLDER)
-
+<!--
+[![Download Open Spider Solitaire on the Apple Appstore](https://PLACEHOLDER)](PLACEHOLDER)
+-->
 </div>
 
 ## Summary
