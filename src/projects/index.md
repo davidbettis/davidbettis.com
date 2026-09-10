@@ -7,7 +7,7 @@ layout: base
 
 ### Open Spider Solitaire
 
-*Released: September 2026 - coming soon*
+*Released: September 2026*
 
 [Open Spider Solitaire](/open-spider-solitaire/) is an offline iOS app implementation of the classic card game Spider Solitaire. The objective is to sort two decks of cards into full runs of 8 different suits. So-named because these 8 suits are like the 8 legs of a spider.
 
@@ -41,7 +41,7 @@ In the early days of the web, it was hip to surface a counter showing how many p
 
 ### cubeScrobbler
 
-In the early aughts [musikCube](https://musikcube.com/) was a minimalistic audio player for Windows. Audio Scrobbler (since become [last.fm](https://last.fm/)) was a website where you can share your active playlist. I wrote a plugin in C++ to integrate the two. musikCube has since metamorphosed into a terminal-based player.
+In the early aughts [musikCube](https://en.wikipedia.org/wiki/MusikCube) was a minimalistic audio player for Windows. Audio Scrobbler (since become [last.fm](https://last.fm/)) was a website where you can share your active playlist. I wrote a plugin in C++ to integrate the two. musikCube has since metamorphosed into a terminal-based player.
 
 ### Xpak
 

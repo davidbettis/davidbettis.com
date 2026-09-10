@@ -6,9 +6,9 @@ layout: base
 # Open Spider Solitaire
 
 <div style="text-align: center">
-<!--
-[![Download Open Spider Solitaire on the Apple Appstore](https://PLACEHOLDER)](PLACEHOLDER)
--->
+
+[![Download Open Spider Solitaire on the Apple Appstore](https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1770163200)](https://apps.apple.com/app/open-spider-solitaire/id6807200422)
+
 </div>
 
 ## Summary
